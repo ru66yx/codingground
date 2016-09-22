@@ -1,0 +1,22 @@
+listA = [1, 4, 3, 0]
+listB = ['x', 'z', 't', 'q']
+#print(listA.sort)
+#print(listA)
+print(listA.sort())
+print(listA)
+print(listA.insert(0, 100))
+print(listA)
+print(listA.remove(3))
+print(listA)
+listA.append(7)
+print(listA)
+
+#print(listB.sort())
+#print(listB.pop()) 
+#print(listB)
+#print(listB.remove('a'))
+#print(listB)
+listA.extend([4, 1, 6, 3, 4])
+print(listA)
+listA.pop(4)
+print(listA)
